@@ -9,8 +9,8 @@ def create_error_bar_data(list_of_data):
     for index, value in enumerate(list_of_data):
         if index == num_taken:
             result.append(value)
-
-            num_taken += 60
+            # delivery 60,100
+            num_taken += 3000
 
     return result
 
