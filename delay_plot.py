@@ -66,4 +66,6 @@ ax.yaxis.grid(True)
 # Save the figure and show
 plt.tight_layout()
 # plt.savefig('bar_plot_with_error_bars.png')
+
+# commentz this show
 plt.show()
